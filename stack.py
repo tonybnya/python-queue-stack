@@ -30,7 +30,7 @@ class Stack:
 
         # First check if the stack is not full
         if not self.is_full():
-            self.stack.insert(0, data)
+            self.stack.append(data)
 
     # pop() or get()
     def pop(self):
